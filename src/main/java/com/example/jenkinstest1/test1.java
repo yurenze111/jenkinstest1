@@ -13,6 +13,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class test1 {
     @RequestMapping(value = "/hello")
     public String getting(){
-        return "hello world nihao";
+        return "hello world nihao呀";
     }
 }
